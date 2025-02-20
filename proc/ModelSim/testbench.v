@@ -30,6 +30,6 @@ module testbench ( );
 	end // initial
 
 	assign KEY[0] = Resetn;
-	part8 U1 (KEY, SW, CLOCK_50, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0, LEDR);
+	setup U1 (KEY, SW, CLOCK_50, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0, LEDR);
 
 endmodule
