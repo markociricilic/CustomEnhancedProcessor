@@ -1,6 +1,6 @@
 // Reset with KEY[0]. SW[9] is Run.
 // The processor executes the instructions in the file inst_mem.mif
-module part8 (KEY, SW, CLOCK_50, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0, LEDR);
+module setup (KEY, SW, CLOCK_50, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0, LEDR);
     input [0:0] KEY;
     input [9:0] SW;
     input CLOCK_50;
