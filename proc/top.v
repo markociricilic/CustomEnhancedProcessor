@@ -13,7 +13,7 @@ module top (CLOCK_50, SW, KEY, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    part8 U1 (KEY[0], SW, CLOCK_50, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0, LEDR);
+    setup U1 (KEY[0], SW, CLOCK_50, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0, LEDR);
 
 endmodule
 
