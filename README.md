@@ -38,5 +38,4 @@ The b{cond} Label instruction supports the following conditions:
 | bpl Label           | branch if positive result        |
 | bmi Label           | branch if negative result        |
 
-For an overview of the project concept, hardware details, and photos of the setup, please visit
-[Enhanced 16-bit ‘ARM-like’ Processor]([https://markociricilic.com/projects/wireless-communication](https://markociricilic.com/projects/processor/).
+For an overview of the project concept, hardware details, and photos of the setup, please visit [Enhanced 16-bit ‘ARM-like’ Processor](https://markociricilic.com/projects/processor/).
